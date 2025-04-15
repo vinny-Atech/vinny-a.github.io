@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vinny Apostol</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header with navigation -->
+  <header id="header">
+    <div class="container header-container">
+      <div class="logo">
+        <h1>Vinny Apostol</h1>
+      </div>
+      <nav id="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="html-cheatsheet.html">HTML Cheat Sheet</a></li>
+          <li><a href="css-cheatsheet.html">CSS Cheat Sheet</a></li>
+          <li><a href="js-cheatsheet.html">JS Cheat Sheet</a></li>
+        </ul>
+      </nav>
+      <!-- Mobile menu toggle -->
+      <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h2>Hi, Welcome!</h2>
+      <p>I’m a first year Software developer of Bow Valley College</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        Hello! my name is Vinny Apostol and I am a software developer student at Bow Valley College. 
+        I have a passion for coding and technology, and I love creating innovative solutions to real-world problems. 
+        My goal is to become a proficient developer and contribute to exciting projects in the tech industry.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to work together, feel free to get in touch!</p>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <p>&copy; 2025 Vinny Apostol. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
